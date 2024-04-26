@@ -6,6 +6,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.1](https://github.com/gtema/openstack/compare/openstack_cli-v0.4.0...openstack_cli-v0.4.1) - 2024-04-26
+
+### Added
+- Add volume.manageable_XXX resources ([#175](https://github.com/gtema/openstack/pull/175))
+- Add volume.default-types ([#173](https://github.com/gtema/openstack/pull/173))
+- Add volume.extension ([#167](https://github.com/gtema/openstack/pull/167))
+- add volume.host
+- add volume.group-snapshots
+- add volume.snapshot
+- implement volume.attachment
+- add volume.limit
+- add volume.message
+- add volume.resource-filters implementation
+- force MV discovery for Compute and Volume
+
+### Fixed
+- allow linter warning
+
+### Other
+- *(test)* Introduce features ([#176](https://github.com/gtema/openstack/pull/176))
+- add volume.group-type schemas
+- Merge pull request [#153](https://github.com/gtema/openstack/pull/153) from gtema/gtema-patch-2
+- Update documentation
+- fix code scanning warning
+- *(deps)* bump hyper from 1.2.0 to 1.3.0
+
 ## [0.4.0](https://github.com/gtema/openstack/compare/openstack_cli-v0.3.0...openstack_cli-v0.4.0) - 2024-04-05
 
 ### Added
